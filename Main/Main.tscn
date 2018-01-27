@@ -1,4 +1,7 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Main/Ball_Controller.gd" type="Script" id=1]
+[ext_resource path="res://Players/Player.tscn" type="PackedScene" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -12,7 +15,7 @@ extents = Vector2( 1022.52, 31.8391 )
 
 [node name="Main" type="Node" index="0"]
 
-[node name="Walls" type="Node2D" parent="." index="0"]
+[node name="Walls" type="Node" parent="." index="0"]
 
 editor/display_folded = true
 _sections_unfolded = [ "Transform" ]
@@ -82,5 +85,20 @@ _sections_unfolded = [ "Collision", "Transform" ]
 
 shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
+
+[node name="Ball_Controller" type="Node" parent="." index="1"]
+
+script = ExtResource( 1 )
+ball_speed = 40
+
+[node name="Player" parent="." index="2" instance=ExtResource( 2 )]
+
+position = Vector2( 156.087, 553.859 )
+ball_speed = 60
+
+[node name="Player2" parent="." index="3" instance=ExtResource( 2 )]
+
+position = Vector2( 1792.49, 596.657 )
+ball_speed = 60
 
 
