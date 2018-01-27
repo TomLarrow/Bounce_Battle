@@ -95,10 +95,12 @@ ball_speed = 40
 
 position = Vector2( 156.087, 553.859 )
 ball_speed = 60
+score = 1.0
 
 [node name="Player2" parent="." index="3" instance=ExtResource( 2 )]
 
 position = Vector2( 1792.49, 596.657 )
 ball_speed = 60
+score = 0.0
 
 

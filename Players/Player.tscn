@@ -30,8 +30,9 @@ angular_velocity = 0.0
 angular_damp = -1.0
 script = ExtResource( 1 )
 ball_speed = null
+score = null
 
-[node name="Players" type="Sprite" parent="." index="0"]
+[node name="Player_Sprite" type="Sprite" parent="." index="0"]
 
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
