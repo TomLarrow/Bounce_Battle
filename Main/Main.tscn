@@ -98,7 +98,7 @@ _sections_unfolded = [ "Transform" ]
 
 script = ExtResource( 2 )
 ball_speed = 40
-num_balls = 35
+num_balls = 30
 
 [node name="Score_Bar" type="Sprite" parent="Ball_Controller" index="0"]
 
