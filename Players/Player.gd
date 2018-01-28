@@ -5,6 +5,8 @@ export (float) var score
 
 func _ready():
 	
+	self.set_meta("player", true)
+	
 	var score_color = Color(1.0-score,0.5,score,1)
 	get_node("Player_Sprite").modulate = score_color
 	
