@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bounce Battle (piano).wav-790847a8d761ca06ee57f7955585095f.sample"
+
+[deps]
+
+source_file="res://Music/Bounce Battle (piano).wav"
+source_md5="40e7c43ad6bbcebeb20c0ed3e6db3afb"
+
+dest_files=[ "res://.import/Bounce Battle (piano).wav-790847a8d761ca06ee57f7955585095f.sample" ]
+dest_md5="41bc185614895193e22418baf7d451f6"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
