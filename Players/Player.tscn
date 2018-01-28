@@ -14,7 +14,7 @@ input_pickable = false
 collision_layer = 1
 collision_mask = 1
 mode = 0
-mass = 100.0
+mass = 1000.0
 friction = 0.0
 bounce = 1.0
 gravity_scale = 0.0
@@ -29,7 +29,7 @@ linear_damp = -1.0
 angular_velocity = 0.0
 angular_damp = -1.0
 script = ExtResource( 1 )
-ball_speed = null
+player_speed = null
 score = null
 
 [node name="Player_Sprite" type="Sprite" parent="." index="0"]

@@ -27,4 +27,5 @@ func _process(delta):
 	
 	score = totalscore/num_balls
 	#print(score)
-	score_bar.position.x=((score*100 -40) * 96)
+	var score_destination=((score*100 -40) * 96)
+	score_bar.position.x= score_bar.position.x + (score_destination - score_bar.position.x)*delta
