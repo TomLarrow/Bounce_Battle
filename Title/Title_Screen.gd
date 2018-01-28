@@ -17,6 +17,10 @@ func _process(delta):
 	if Input.is_action_pressed("blue_input_key"):
 		blue_ready = true
 		blue_player.modulate = Color(0, 0.5, 1, 1)
+	
+	
+	if Input.is_action_pressed("ui_cancel"):
+		get_tree().quit()
 		
 	if orange_ready && blue_ready:
 		get_parent().start_game()

@@ -1,7 +1,7 @@
 extends Node
 
-export (int) var ball_speed
-export (int) var num_balls
+var ball_speed = 40
+var num_balls = 35
 onready var ball = preload("res://Balls/Ball.tscn")
 onready var score_bar = get_node("Score_Bar")
 onready var orange_music = get_node("Orange_Music")
@@ -37,3 +37,6 @@ func _process(delta):
 	var score_volume = 0- (score*100 -40) *2
 	orange_music.volume_db=score_volume
 	blue_music.volume_db=-40 - score_volume
+	
+	if (score > 0.61 || score < 0.39):
+		get_parent().end_game(score)

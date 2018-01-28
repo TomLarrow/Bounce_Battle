@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-export (int) var player_speed
+var player_speed = 120
 export (float) var score
 onready var ball_texture = get_node("Player_Sprite")
 var original_score
@@ -10,7 +10,7 @@ func _ready():
 	self.set_meta("player", true)
 	set_color(score)
 	var initial_velocity = Vector2( rand_range(-1, 1), rand_range( -1, 1)).normalized()
-	apply_impulse(Vector2(), initial_velocity * player_speed)
+	apply_impulse(Vector2(), initial_velocity * 120)
 
 	
 func set_color(score):

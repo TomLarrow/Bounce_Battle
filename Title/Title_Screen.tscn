@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Title/Title_Screen.gd" type="Script" id=1]
 [ext_resource path="res://Title/TitleScreen.png" type="Texture" id=2]
 [ext_resource path="res://Players/Players.png" type="Texture" id=3]
+[ext_resource path="res://Title/orange_wins.png" type="Texture" id=4]
+[ext_resource path="res://Title/blue_wins.png" type="Texture" id=5]
 
 [node name="Title_Screen" type="Control" index="0"]
 
@@ -35,5 +37,19 @@ texture = ExtResource( 3 )
 
 position = Vector2( 1646.68, 653.328 )
 texture = ExtResource( 3 )
+
+[node name="orange_wins" type="Sprite" parent="." index="3"]
+
+visible = false
+position = Vector2( 972.702, 752.88 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="blue_wins" type="Sprite" parent="." index="4"]
+
+visible = false
+position = Vector2( 948.643, 754.731 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Visibility" ]
 
 
