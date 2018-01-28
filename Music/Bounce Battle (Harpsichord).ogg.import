@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bounce Battle (Harpsichord).ogg-cc85c931e351b4f8ceabddf30a7595fa.oggstr"
+
+[deps]
+
+source_file="res://Music/Bounce Battle (Harpsichord).ogg"
+source_md5="94f58521cc26dff2caa7a9d871e0d695"
+
+dest_files=[ "res://.import/Bounce Battle (Harpsichord).ogg-cc85c931e351b4f8ceabddf30a7595fa.oggstr" ]
+dest_md5="ed67f2650dfe917a228983666b0a5d1c"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bounce Battle (Piano).ogg-03ff6581cdf6efb0c0a405a384b9ea98.oggstr"
+
+[deps]
+
+source_file="res://Music/Bounce Battle (Piano).ogg"
+source_md5="66aa424b503c1a2707264c4f4d56cb55"
+
+dest_files=[ "res://.import/Bounce Battle (Piano).ogg-03ff6581cdf6efb0c0a405a384b9ea98.oggstr" ]
+dest_md5="a6e7e4d62acf77964e089a235f67108c"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Main/Ball_Controller.gd" type="Script" id=1]
+[ext_resource path="res://Main/bar.png" type="Texture" id=2]
+[ext_resource path="res://Music/Bounce Battle (Harpsichord).ogg" type="AudioStream" id=3]
+[ext_resource path="res://Music/Bounce Battle (Piano).ogg" type="AudioStream" id=4]
+
+[node name="Ball_Controller" type="Node" index="0"]
+
+script = ExtResource( 1 )
+ball_speed = 40
+num_balls = 30
+
+[node name="Score_Bar" type="Sprite" parent="." index="0"]
+
+position = Vector2( 960, 32 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Orange_Music" type="AudioStreamPlayer" parent="." index="1"]
+
+stream = ExtResource( 3 )
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[node name="Blue_Music" type="AudioStreamPlayer" parent="." index="2"]
+
+stream = ExtResource( 4 )
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+
